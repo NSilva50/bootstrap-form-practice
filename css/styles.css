@@ -4,15 +4,20 @@ body {
     height: 100%;
 }
 
-.container {
-    height: 100vh;
-}
-
 form {
     width: 100%;
     padding: 2%;
     border: 1px solid black;
     margin: auto;
+}
+
+.parallax {
+    /* Create the parallax scrolling effect */
+    /* add class to element with bg-image and should apply */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Styles for viewports less than 500 pixels wide */
