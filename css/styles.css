@@ -1,6 +1,7 @@
 /* Default styles */
 body {
     font-family: sans-serif;
+    width: 100vw;
     height: 100%;
 }
 
@@ -25,12 +26,20 @@ form {
     body {
         font-size: 12px;
     }
+
+    .parallax {
+        background-attachment: scroll;
+    }
 }
 
 /* Styles for viewports between 500 and 800 pixels wide */
 @media only screen and (min-width: 500px) and (max-width: 800px) {
     body {
         font-size: 14px;
+    }
+
+    .parallax {
+        background-attachment: scroll;
     }
 }
 
